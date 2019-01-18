@@ -1,0 +1,419 @@
+.cf:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.borderless {
+	border: 0;
+}
+.right-margin {
+	margin-left: 91px;
+}
+.body {
+	font-family: Georgia;
+}
+.header {
+	height: 48px;
+	background: white;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+.header-content {
+	width: 98%;
+	margin: 0 auto;
+}
+.button-text {
+	font-weight: 800;
+	font-size: 11px;
+	position: relative;
+	top: -2px;
+}
+.header-button {
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	width: 104px;
+	margin-top: 9px;
+	position: relative;
+	box-shadow: 1px 1px 5px 0 #ccc;
+	margin-right: 5px;
+	color: #333;
+}
+.header-button-content {
+	text-align: center;
+	margin-top: 6px;
+}
+.header-button.borderless {
+	border: 0;
+	box-shadow: none;
+	height: 30px;
+}
+.header-element-icon {
+	height: 16px;
+	width: 16px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: -2px;
+}
+.logo {
+	padding-top: 13px;
+	position: relative;
+	left: 250px;
+	display: inline-block;
+}
+.log {
+	background: #6288a5;
+	width: 55px;
+	color: white;
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+.settings {
+	font-size: 18px;
+	margin-top: 14px;
+	margin-left: 10px;
+	color: #333;
+}
+
+/*Ribbon*/
+
+.ribbon {
+	height: 82px;
+	background: white;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 2px 0 5px #ccc;
+	padding-top: 48px;
+}
+.ribbon-story-container {
+	height: 65px;
+	margin-top: 8.5px;
+	padding-left: 20px;
+}
+.story {
+	width: 230px;
+	margin-right: 10px;
+	border-right: 1px solid #ccc;
+}
+.story-heading{
+	color: #333;
+	font-size: 13px;
+	font-weight: 300;
+	width: 155px;
+}
+.story-image{
+	width: 65px;
+	height: 65px;
+}
+/*Main*/
+
+.main-content {
+	width: 1050px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+.comment-icon {
+	color: #326891;
+	font-size: 20px;
+}
+.comment-text {
+	font-size: 12px;
+	color: #666;
+	position: relative;
+	top: -2px;
+	right: -5px;
+}
+.category-heading {
+	font-size: 13px;
+	line-height: 22px;
+}
+.category-heading:hover {
+	text-decoration: underline;
+}
+.article-heading {
+	clear: both;
+	font-family: Georgia, sans-serif;
+	font-size: 34px;
+	font-style: italic;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.article-info {
+	font-size: 11px;
+	font-family: Georgia;
+	margin-bottom: 20px;
+}
+.date {
+	margin-left: 10px;
+}
+.caption {
+	width: 675px;
+}
+.caption-text {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.caption-author {
+	font-size: 11px;
+	margin-top: 5px;
+	color: #999;
+	margin-bottom: 20px;
+}
+.article-text {
+	width: 675px;
+}
+.options {
+	width: 91px;
+}
+.options > ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.options > ul > li {
+	color: #888;
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+.options > ul > li > p {
+	margin: 5px 0;
+}
+.options > ul > li:last-child {
+	border: 0;
+}
+.email-icon {
+	color: #6288A5;
+}
+.facebook-icon {
+	color: #3E5B97;
+}
+.twitter-icon {
+	color: #00ABF2;
+}
+.folder-icon {
+	color: #6288A5;
+}
+.more-icon {
+	color: #7E9DB3;
+}
+.text {
+	width: 540px;
+	color: #333;
+	font-size: 16px;
+}
+.text a {
+	color: rgb(50, 104, 145);
+}
+
+/*Extra*/
+
+.extra-content {
+	width: 1050px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+.extra-heading {
+	margin: 10px 0;
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+}
+.extra-content-image {
+	width: 100%;
+	height: auto;
+}
+.absolute-text {
+	position: absolute;
+	font-size: 14px;
+	font-weight: 100;
+	width: 228px;
+	line-height: 17px;
+}
+#at1 {
+	top: 220px;
+}
+#at2 {
+	top: 220px;
+	left: 268px;
+}
+#at3 {
+	top: 220px;
+	left: 536px;
+}
+#at4 {
+	top: 220px;
+	left: 804px;
+}
+#at5 {
+	top: 530px;
+}
+#at6 {
+	top: 530px;
+	left: 268px;
+}
+#at7 {
+	top: 530px;
+	left: 536px;
+}
+#at8 {
+	top: 530px;
+	left: 804px;
+}
+.video {
+	margin: 10px 0;
+}
+.after-image {
+	margin-top: 40px;
+}
+.space-station {
+	width: 100%;
+	height: auto;
+}
+.divider-line {
+	border-bottom: 1px solid black;
+	width: 100px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+#final {
+	margin-bottom: 30px;
+}
+.footer {
+	width: 1050px;
+	border-top: 1px solid #ccc;
+	height: 400px;
+	margin: 0 auto;
+}
+.footer-logo {
+	padding-top: 10px;
+}
+.home-link {
+	color: rgb(50, 104, 145);
+	font-size: 11px;
+	position: relative;
+	line-height: 26px;
+	text-decoration: none;
+}
+.footer-lists {
+	margin-top: 20px;
+	clear: both;
+	font-size: 13px;
+}
+.footer-lists>ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 165px;
+}
+.footer-lists>ul>li {
+	padding-bottom: 10px;
+}
+.footer-lists>ul>li:first-child {
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.footer-sub {
+	position: relative;
+	top: -2px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.footer-sub-icon {
+	position: relative;
+	font-weight: bold;
+	font-size: 15px;
+}
+.subscribe {
+	width: 400px;
+	border-left: 1px solid #ccc;
+}
+#subscribe {
+	padding-left: 10px;
+}
+#last {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#first {
+	padding-top: 10px;
+}
+.smaller-list {
+	font-size: 9px;
+}
+.gallery {
+	width: 675px;
+	border-top: 1px solid #ccc;
+}
+.popular {
+	width: 300px;
+	border-top: 1px solid #ccc;
+}
+#cosmos-link {
+	line-height: 60px;
+}
+.articles {
+	clear: both;
+}
+.article {
+	width: 210px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.article:first-child {
+	margin-left: 0;
+}
+.article-image {
+	width: 210px;
+	height: 140px;
+}
+.article-header {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+#fourth {
+	margin-left: 0;
+}
+.popular-article {
+	margin-bottom: 10px;
+}
+.popular-article>image {
+	width: 40px;
+	height: 40px;
+}
+.popular-article-num {
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	font-weight: 300;
+}
+.popular-article-name {
+	width: 230px;
+	font-size: 13px;
+	color: rgb(50, 104, 105);
+	line-height: 17px;
+	margin: 0;
+	text-align: left;
+	padding-top: 3px;
+}
+.popular-article-name.no-image {
+	width: 260px;
+}
+.popular-image {
+	width: 40px;
+	height: 40px;
+}
